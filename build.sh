@@ -10,8 +10,7 @@ chmod a+x "$INSTALLER"
 
 PATH="$TIZEN_STUDIO/tools/ide/bin:$PATH"
 
-ls -la "$TIZEN_STUDIO/tools/"
-ls -la "$TIZEN_STUDIO/tools/certificate-generator/certificates/"
+ls -la "$TIZEN_STUDIO/tools/certificate-generator/certificates/distributor/"
 
 #
 # Parse arguments
