@@ -16,7 +16,7 @@ ls -la "$TIZEN_STUDIO/tools/certificate-generator/certificates/distributor/sdk-p
 # Parse arguments
 #
 if [ "$8" = "partner" ]; then
-    PRIVILEGE=parner
+    PRIVILEGE=partner
 else
     PRIVILEGE=public
 fi
