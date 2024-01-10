@@ -10,7 +10,7 @@ chmod a+x "$INSTALLER"
 
 PATH="$TIZEN_STUDIO/tools/ide/bin:$PATH"
 
-echo $TIZEN_STUDIO
+ls -la $TIZEN_STUDIO
 
 #
 # Parse arguments
