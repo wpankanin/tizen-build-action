@@ -49,6 +49,10 @@ fi
 DEFAULT_DISTRIBUTOR_KEY="$TIZEN_STUDIO/tools/certificate-generator/certificates/distributor/sdk-$PRIVILEGE/tizen-distributor-signer.p12"
 DISTRIBUTOR_KEY="${CUSTOM_DISTRIBUTOR_KEY:-"$DEFAULT_DISTRIBUTOR_KEY"}"
 
+echo "DISTRIBUTOR_KEY: $DISTRIBUTOR_KEY"
+echo "DISTRIBUTOR_CERT: $DISTRIBUTOR_CERT"
+
+
 DISTRIBUTOR_PASSWORD="${7:-tizenpkcs12passfordsigner}"
 
 echo <<EOF
