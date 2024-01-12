@@ -77,7 +77,7 @@ cat <<EOF >"$GLOBAL_PROFILES_PATH"
 <profiles active="sourcetoad-tizen-public" version="3.1">
     <profile name="sourcetoad-tizen-public">
         <profileitem ca="$AUTHOR_CERT" distributor="0" key="$AUTHOR_KEY" password="$AUTHOR_PASSWORD" rootca=""/>
-        <profileitem ca="$DISTRIBUTOR_CERT" distributor="1" key="$DISTRIBUTOR_KEY" password="$DISTRIBUTOR_PASSWORD" rootca=""/>
+        <profileitem distributor="1" key="$DISTRIBUTOR_KEY" password="$DISTRIBUTOR_PASSWORD" rootca=""/>
         <profileitem ca="" distributor="2" key="" password="" rootca=""/>
     </profile>
 </profiles>
