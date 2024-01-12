@@ -4,7 +4,7 @@
 TIZEN_STUDIO="$GITHUB_WORKSPACE/tizen-studio"
 INSTALLER="$GITHUB_WORKSPACE/tizen-studio_5.1.bin"
 
-wget -nc -O "$INSTALLER"  http://download.tizen.org/sdk/Installer/tizen-studio_5.1/web-cli_Tizen_Studio_5.1_ubuntu-64.bin
+wget -nc -O "$INSTALLER"  http://download.tizen.org/sdk/Installer/tizen-studio_5.5/web-cli_Tizen_Studio_5.5_ubuntu-64.bin
 chmod a+x "$INSTALLER"
 "$INSTALLER" --accept-license $TIZEN_STUDIO
 
